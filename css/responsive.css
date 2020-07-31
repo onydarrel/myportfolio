@@ -1,0 +1,94 @@
+/* ----------------------------------------------------------------------
+Template Name : Velixs -  Personal Portfolio Template
+Author        : Seniman Koding
+Version       : 1.0
+Copyright     : 2019
+* ----------------------------------------------------------------------
+*/
+
+@media (max-width: 767px) {
+	.navbar-center {
+	    padding-left: 0px; 
+	    padding-top: 5px;
+	    padding-bottom: 10px;
+	    text-align: center;
+	    background: #fff;
+	}
+	.navbar .navbar-nav .nav-link {
+		color: #222;
+		margin: 8px 5px;
+	}
+	.nav-scroll .navbar-nav .nav-link:after {
+  		background: #007bff;
+	}
+	#header {
+		padding-top: 140px;
+		padding-bottom: 30px;
+	}
+	.header-loading-bar p {
+    	font-size: 32px;
+	}
+	.social-media-nav {
+		display: none;
+	}
+	.about-img {
+		margin-right: 0px;
+	}
+	.about-text-title p:nth-child(1) {
+    	font-size: 35px; 
+    }
+	.about-img img {
+    	margin-left: 0px; 
+	}
+	.about-cta a {
+		margin-bottom: 20px;
+	}
+	.skills {
+		margin-bottom: 20px;
+	}
+	.cta-main-detail p:nth-child(1) {
+    	font-size: 25px;
+	}
+	.portfolio-filter ul li:hover, .portfolio-filter ul li.current {
+		margin-bottom: 15px;
+	}
+	.blog-box-title {
+        height: auto; 
+    }
+	.blog-box {
+		margin-bottom: 40px;
+	}
+	.footer-detail {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 400px) {
+    .header-loading-bar p {
+        font-size: 28px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.navbar-center {
+	    padding-left: 0px; 
+	}
+	.social-media-nav li {
+    	padding-left: 10px;
+	}
+	.header-loading-bar p {
+    	font-size: 50px;
+	}
+	.about-img {
+		margin-right: 0px;
+	}
+	.about-img img {
+    	margin-left: 0px;
+	}
+	.about-text-title p:nth-child(1) {
+    	font-size: 35px; 
+    	padding-top: 40px;
+    }
+	.blog-box {
+		margin-bottom: 40px;
+	}
+}
